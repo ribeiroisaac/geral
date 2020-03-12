@@ -31,7 +31,7 @@ int main(){
 	int v[TAM];
 	int i;
 	
-	// atribuição //
+	// atribuiÃ§Ã£o //
 	
 	v[0] = 105;
 	v[1] = 75;
@@ -41,11 +41,11 @@ int main(){
 	v[5] = 94;
 	
 	
-	// função //
+	// funÃ§Ã£o //
 	
 	bubblesort(v, TAM-1);
 	
-	// retorno da função //
+	// retorno da funÃ§Ã£o //
 	
 	for(i=0;i<TAM;i++){
 		cout << v[i] << " " << endl;
