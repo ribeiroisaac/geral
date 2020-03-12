@@ -35,7 +35,7 @@ int main(){
 	int vet[TAM];
 
 	
-	// atribuição //
+	// atribuiÃ§Ã£o //
 	vet[0] = 105;
 	vet[1] = 75;
 	vet[2] = 80;
@@ -43,11 +43,11 @@ int main(){
 	vet[4] = 56;
 	vet[5] = 94;
 	
-	// selection sort para ordenação //
+	// selection sort para ordenaÃ§Ã£o //
 	
 	selectionsort(vet, 0, TAM-1); 
 		
-	// retorno da função //
+	// retorno da funÃ§Ã£o //
 	
 	for(int i=0;i<TAM;i++){
 		cout << vet[i] << " " << endl;
